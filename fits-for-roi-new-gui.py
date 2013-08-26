@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 #
 #-----------------------------------------------------------------------#
-# fits-for-roi-new.py                                                   #
+# fits-for-roi-new-gui.py                                               #
 #                                                                       #
 # Script to create a FITS file from ROI observing output                #
 # Copyright (C) 2013 Germán A. Racca - <gracca[AT]gmail[DOT]com>        #
