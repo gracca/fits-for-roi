@@ -45,7 +45,7 @@ def main(arq):
     hdulist = pyfits.HDUList()
 
     # read numerical data
-    nums = np.zeros(nchannel*nspectra)
+    nums = np.zeros(nchannel*nspectra, dtype='float32')
 
     for i in range(nspectra):
         limi = coef * i

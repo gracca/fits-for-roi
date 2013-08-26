@@ -39,7 +39,7 @@ coef = nheadlin + nchannel + 1
 spec = [pyfits.PrimaryHDU() for i in range(nspectra)]
 
 # read numerical data
-nums = np.zeros(nchannel*nspectra)
+nums = np.zeros(nchannel*nspectra, dtype='float32')
 
 for i in range(nspectra):
     limi = coef * i
